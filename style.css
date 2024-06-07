@@ -1,0 +1,161 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.headingBox {
+    background-color: #6969FF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.heading {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.btn {
+
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 480px) {
+    h1 {
+
+        font-size: 40px;
+      
+        padding: 8px 8px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    h1 {
+
+        font-size: 35px;
+        padding: 8px 8px;
+    }
+
+  
+}
+
+
+.btn {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.registerbtn {
+
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    position: absolute;
+    width: 97%;
+    height: 100vh;
+
+}
+
+.registerButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn button {
+    padding: 5px 0px;
+    
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn button {
+        width: 130px;
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .btn button {
+        width: 80px;
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .btn button {
+        width: 118px;
+        margin-left: 50px; 
+    }
+}
+
+
+#registrationForm {
+    background-color: #ffffff;
+    padding: 15px 15px 30px;
+    margin: 150px 97px;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 400px;
+    text-align: center;
+    color: #333333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    position: absolute;
+
+
+}
+
+#registrationForm input {
+    width: calc(100% - 20px);
+    padding: 7px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#registrationForm button {
+
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#registrationForm button:hover {
+    background-color: #0056b3;
+}
